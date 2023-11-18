@@ -3,7 +3,7 @@ count_files(){
 local count=$(ls -l | wc -l)
 echo $count
 }
-count=$(count_files)
+count=$(count_files) -1
 
 
 echo "Welcom to my Game"
